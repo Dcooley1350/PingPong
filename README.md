@@ -16,7 +16,7 @@ _This web-applicatiion will take an integer input from a user and return a list 
 *Example Input: [-1]
 *Example Output: []
 ### _If the number provided is not an integer, it returns nothing._
-*Example Input: "Ripper-Magoo"
+*Example Input: "Ripper-Magoo", 1.735
 *Example Output: []
 ### _For all returned numbers divisible by 3 it returns "ping".
 *Example Input: "3"

@@ -1,6 +1,8 @@
 var PingPong = function(usernumber) {
   if (usernumber < 0) {
     return false
+  } else if (userNumber % 1 != 0) {
+    return false
   }
   return false;
 }
