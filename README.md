@@ -18,13 +18,13 @@ _This web-applicatiion will take an integer input from a user and return a list 
 ### _If the number provided is not an integer, it returns nothing._
 *Example Input: "Ripper-Magoo"
 *Example Output: []
-### _For numbers divisible by 3 it returns "ping".
+### _For all returned numbers divisible by 3 it returns "ping".
 *Example Input: "3"
 *Example Output: [1,2,"ping"]
-### _For numbers divisible by 5 it returns "pong".
+### _For all returned numbers divisible by 5 it returns "pong".
 *Example Input: "3"
 *Example Output: [1,2,"ping",4,"pong"]
-### _For numbers divisible by 15 it returns "pingpong".
+### _For all returned numbers divisible by 15 it returns "pingpong".
 *Example Input: "15"
 *Example Output: [1,2,"ping",4,"pong",6,7,8,9,10,11,12,13,14,"pingpong"]
 
