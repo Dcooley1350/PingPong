@@ -12,10 +12,10 @@ _This web-applicatiion will take an integer input from a user and return a list 
 ### _It counts to the number provided._
 *Example Input: 2
 *Example Output:  [1,2]
-### _If the number provided is negative, it returns nothing._
+### _If the number provided is negative, it prompts user to be better at life._
 *Example Input: [-1]
-*Example Output: []
-### _If the number provided is not an integer, it returns nothing._
+*Example Output: ["Please enter a positive integer!"]
+### _If the number provided is not an integer, the user cannot submit the form._
 *Example Input: "Ripper-Magoo", 1.735
 *Example Output: []
 ### _For all returned numbers divisible by 3 it returns "ping".
