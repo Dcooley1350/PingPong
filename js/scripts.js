@@ -23,12 +23,12 @@ $(document).ready(function() {
     arrayNumbers.forEach(function(arrayNumber) {
       if (!arrayNumber) {
         $("#pingPongGame").append("<li>"+"Please enter a postitive integer!"+"<li>")
-      } else if (arrayNumber % 3 === 0) {
-        $("#pingPongGame").append("<li>"+"Ping"+"</li>")
-      } else if (arrayNumber % 5 === 0) {
-        $("#pingPongGame").append("<li>"+"Pong"+"</li>")
       } else if (arrayNumber % 15 === 0) {
         $("#pingPongGame").append("<li>"+"Ping Pong"+"</li>")
+      } else if (arrayNumber % 5 === 0) {
+        $("#pingPongGame").append("<li>"+"Pong"+"</li>")
+      } else if (arrayNumber % 3 === 0) {
+        $("#pingPongGame").append("<li>"+"Ping"+"</li>")
       } else
         $("#pingPongGame").append("<li>"+arrayNumber+"</li>");
     })
