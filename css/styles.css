@@ -1,6 +1,22 @@
 .jumbotron {
   background-color: red;
-  font-weight: 200;
+  font-weight: bold;
   color: black;
+}
+#return-to-user {
+  display: none;
+}
+
+.btn {
+  background-color: red;
+  color: black;
+  font-weight: bold;
+}
+body {
+  background-color: black;
+
+}
+.panel-title {
+  font-weight: bold;
 }
 

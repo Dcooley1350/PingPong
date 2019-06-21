@@ -26,5 +26,6 @@ $(document).ready(function() {
     var userNumber = parseInt($("input#number-entered").val());
     PingPong(userNumber)
     $("#pingPongGame").append(listContents)
+    $("#return-to-user").show()
   })
 })
