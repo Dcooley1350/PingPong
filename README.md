@@ -10,27 +10,27 @@ _This web-applicatiion will take an integer input from a user and return a list 
 ## Specifications:
 
 ### _It counts to the number provided._
-*Example Input: 2
-*Example Output:  [1,2]
+* Example Input: 2
+* Example Output:  [1,2]
 ### _If the number provided is negative, it prompts user to be better at life._
-*Example Input: [-1]
-*Example Output: ["Please enter a positive integer!"]
+* Example Input: [-1]
+* Example Output: ["Please enter a positive integer!"]
 ### _If the number provided is not an integer, the user cannot submit the form._
-*Example Input: "Ripper-Magoo", 1.735
-*Example Output: []
-### _For all returned numbers divisible by 3 it returns "ping".
-*Example Input: "3"
-*Example Output: [1,2,"ping"]
-### _For all returned numbers divisible by 5 it returns "pong".
-*Example Input: "3"
-*Example Output: [1,2,"ping",4,"pong"]
-### _For all returned numbers divisible by 15 it returns "pingpong".
-*Example Input: "15"
-*Example Output: [1,2,"ping",4,"pong",6,7,8,9,10,11,12,13,14,"pingpong"]
+* Example Input: "Ripper-Magoo", 1.735
+* Example Output: []
+### _For all returned numbers divisible by 3 it returns "ping"._
+* Example Input: "3"
+* Example Output: [1,2,"ping"]
+### _For all returned numbers divisible by 5 it returns "pong"._
+* Example Input: "3"
+* Example Output: [1,2,"ping",4,"pong"]
+### _For all returned numbers divisible by 15 it returns "pingpong"._
+* Example Input: "15"
+* Example Output: [1,2,"ping",4,"pong",6,7,8,9,10,11,12,13,14,"pingpong"]
 
 ## Setup/Installation Requirements
 
-* _Simply load page in your browser!_*
+* _Simply load page in your browser!_
 
 ## Known Bugs
 
