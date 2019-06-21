@@ -1,7 +1,7 @@
 var listContents = ""
 var PingPong = function(userNumber) {
   if ((userNumber < 0) || (userNumber % 1 != 0)){
-    listContents = "<li>Please enter a positive integer!</li>"
+    listContents = "<li>Please enter a positive integer!</li><img src='img/Jackie-Chan-WTF.jpg' alt='jackie-chan what meme'>"
   } else {
     for (var index =1; index < userNumber+1; index += 1) {
       if(index % 15 === 0) {
