@@ -3,9 +3,8 @@ var PingPong = function(userNumber) {
   if ((userNumber < 0) || (userNumber % 1 != 0)){
     listContents = "<li>Please enter a positive integer!</li>"
   } else {
-    for (var index =1; index < userNumber; index += 1) {
+    for (var index =1; index < userNumber+1; index += 1) {
       if(index % 15 === 0) {
-        console.log(listContents)
        listContents= listContents + "<li>Ping Pong</li>"
       } else if (index % 5 === 0) {
         listContents = listContents + "<li>Pong</li>"
